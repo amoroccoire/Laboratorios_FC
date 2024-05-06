@@ -9,7 +9,7 @@ Ejecute el archivo ejercicio2.py
 * numpy
 * matplotlib  
   
-  EJECUCIÓN
+EJECUCIÓN
 1. Windows
 ~~~
 python <nombre del archivo>.py
