@@ -1,5 +1,5 @@
 # Laboratorio 1 de FISICA COMPUTACIONAL
-Ejecute el archivo ejercicio1.py
+Ejecute el archivo ejercicio1.py  
 Requiere:
 * numpy
 * matplotlib
