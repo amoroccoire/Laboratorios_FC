@@ -42,11 +42,11 @@ for j in range(filas):
 # Crear la visualización del campo eléctrico
 fig, ax = plt.subplots()
 ax.set_aspect('equal')
-#Dibujo de las cargas (circulares y rojas)
+#Representación de las cargas (circulares y rojas)
 ax.scatter([carga[0] for carga in cargas], [carga[1] for carga in cargas], c='red', s=[abs(carga[2])*50 for carga in cargas], zorder=1)
 for carga in cargas: #para las etiquetas de la cargas
     ax.text(carga[0]-0.4, carga[1]-0.8, '{} unit'.format(carga[2]), color='black', zorder=2)
-#Dibujo de las lineas del campo electrico
+#Dibujo de las lineas del campo eléctrico
 ax.streamplot(coord_x, coord_y, campo_ex, campo_ey, linewidth=1, density=1.5, zorder=0)
  
 plt.title('Simulación del Campo Eléctrico')
