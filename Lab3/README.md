@@ -17,10 +17,10 @@ Requiere:
 
 1. Windows
 ~~~
-python ejercicio1.py
+python <nombre del archivo>.py
 ~~~
 
 2. Linux
 ~~~
-python3 ejercicio1.py
+python3 <nombre del archivo>.py
 ~~~
