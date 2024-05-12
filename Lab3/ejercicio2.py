@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Definir las cargas puntuales como una lista de tuplas (x, y, carga)
-cargas = [(-2, 0, -5), ((3, 1, 3))]
+cargas = [(-2, 0, -5), (3, 1, 3)]
 
 # Definir los límites del plano
 x_min, y_min = -5, -5 
